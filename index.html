@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" style="font-family: Poppins, sans-serif;">
+<html>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!-- CSS External -->
     <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/homeStyle.css">
@@ -23,9 +23,9 @@
                     class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav mx-auto" style="margin: 0;padding-right: 50px;">
-                    <li class="nav-item"><a class="nav-link text-center" href="#abt" style="width: 110px;">ABOUT</a>
+                    <li class="nav-item"><a class="nav-link text-warning text-center" href="#abt" style="width: 110px;">ABOUT</a>
                     </li>
-                    <li class="nav-item text-center"><a class="nav-link text-center" href="#cnt"
+                    <li class="nav-item text-center"><a class="nav-link text-warning text-center" href="#cnt"
                             style="width: 110px;">CONTACT</a></li>
                     <li class="nav-item text-center d-xl-flex d-xxl-flex justify-content-xl-center align-items-xl-center align-items-xxl-center"
                         style="width: 110px;"><button class="btn btn-outline-danger btn-sm text-center tada animated"
@@ -56,14 +56,13 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <p id="gblkp" style="padding-right: 198px; display: none;">Password Salah Goblok</p>
-                    <button onclick="gblk()" type="button" class="btn btn-danger">LOGIN</button>
+                    <p id="gblkp" style="padding-right: 195px; display: none; font-size:15px">Password Salah Goblok</p>
+                    <button onclick="login()" type="button" class="btn btn-danger">LOGIN</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="top">
         <section id="home">
             <div class="row" style="padding-top: 50px;">
                 <div class="column il">
@@ -81,10 +80,9 @@
                 </div>
             </div>
         </section>
-    </div>
     <div id="abt">
         <section id="about">
-            <h2 class="teksjudul">OUR TEAM</h2>
+            <h2 class="teksjudul about">OUR TEAM</h2>
             <br><br><br>
             <div style="margin-left: 8%;">
                 <div class="columns left zoom">
@@ -105,32 +103,32 @@
             <div class="top">
                 <h2 class="teksjudul">OUR SUPPORT</h2>
                 <br><br><br>
-                <div class="container ms-auto">
-                    <div class="row">
-                        <div class="col zoom">
+                <div class="container overflow-hidden ms-auto">
+                    <div class="row align-items-center">
+                        <div class="col-sm-2">
                             <a href="https://www.bca.co.id/id/individu" target="_blank"><img src="./assets/img/BBCA.png"
                                     style="width: 180px; height:180px"></a>
                         </div>
-                        <div class="col zoom">
+                        <div class="col-sm-2">
                             <a href="https://www.bni.co.id/id-id/" target="_blank"><img src="./assets/img/BBNI.png"
                                     style="width: 180px; height:180px"></a>
                         </div>
-                        <div class="col zoom">
+                        <div class="col-sm-2">
                             <a href="https://bri.co.id/" target="_blank"><img src="./assets/img/BBRI.png"
                                     style="width: 180px; height:180px"></a>
                         </div>
                     </div>
                     <br><br><br><br>
-                    <div class="row">
-                        <div class="col zoom">
+                    <div class="row align-items-center">
+                        <div class="col-sm-2">
                             <a href="https://holo.host/holo-fuel/" target="_blank"><img src="./assets/img/HOLO.png"
                                     style="width: 180px; height:180px"></a>
                         </div>
-                        <div class="col zoom">
+                        <div class="col-sm-2">
                             <a href="https://polygon.technology/" target="_blank"><img src="./assets/img/MATIC.png"
                                     style="width: 180px; height:180px"></a>
                         </div>
-                        <div class="col zoom">
+                        <div class="col-sm-2">
                             <a href="https://solana.com/" target="_blank"><img src="./assets/img/SOLANA.png"
                                     style="width: 180px; height:180px"></a>
                         </div>

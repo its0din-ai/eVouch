@@ -1,19 +1,17 @@
 /* 
          Color Space
-         1F2421  Black
+         504b43  Black
          EDEDED  White
-         86BA90  Green
+         8fd694  Green
          507DBC  Blue
          FF715B  Salmon Pink
          F9CB40  Yellow
          -- OLD
 */
 
-*{
-    font-family: Poppins, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap');
 
-/* ScrollBar */
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -31,6 +29,12 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #a59898; 
 }
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
  
 html, body, section
 {
@@ -86,7 +90,7 @@ html
   clear: both;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -97,45 +101,58 @@ html
     padding: 80px;
     height: 90%;
     width: 100%;
-    background-color: #86BA90;
+    background-color: #8fd694;
 }
 .bottom {
-    padding: 80px;
-    height: 30%;
+    padding: 70px;
+    height: 50%;
     width: 100%;
-    background-color: #507DBC;
+    background-color: #ffffff;
 }
 .credit {
     padding: 50px;
     height: 10%;
     width: 100%;
-    background-color: #507DBC;
+    background-color: #ffffff;
     text-align: center;
 }
 
 
 .isihome{
+    color: #000000;
     margin-right: 50px;
-    font-size: 35px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .teksjudul
 {
+    color: #000000;
     margin-bottom: 20px;
-    font-size: 72px !important;
-    font-weight: bold;
+    font-size: 60px !important;
+    font-weight: 900;
+}
+
+.teksjudul.about
+{
+    color: #f9cb40;
+    margin-bottom: 20px;
+    font-size: 60px !important;
+    font-weight: 900;
 }
 
 .teksfooter
 {
     margin-bottom: 20px;
     font-size: 40px !important;
+    font-weight: 700;
+    color: #507DBC;
 }
  
 #home
 {
     padding: 80px;
-    background-color: #86BA90;
+    background-color: #8fd694;
     color: white;
 }
  
@@ -143,12 +160,12 @@ html
 {
     padding: 80px;
     height: 150%;
-    background-color: #1F2421;
+    background-color: #504b43;
     color: #EDEDED;
 }
 
 #contact{
-    background-color: #507DBC;
+    background-color: #ffffff;
 }
 
 .zoom {
