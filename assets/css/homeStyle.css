@@ -104,17 +104,22 @@ html
     background-color: #8fd694;
 }
 .bottom {
-    padding: 70px;
+    padding-top: 70px;
+    padding-left: 0px;
     height: 50%;
     width: 100%;
     background-color: #ffffff;
 }
 .credit {
-    padding: 50px;
     height: 10%;
     width: 100%;
     background-color: #ffffff;
     text-align: center;
+}
+
+#teksfooter {
+    font-weight: 800;
+    font-size: 25px !important;
 }
 
 
@@ -139,6 +144,20 @@ html
     margin-bottom: 20px;
     font-size: 60px !important;
     font-weight: 900;
+}
+
+.teksjudul.bayar
+{
+    color: #000000;
+    font-size: 20px !important;
+    font-weight: 700;
+}
+
+.teksjudul.bayar.bank
+{
+    color: #000000;
+    font-size: 15px !important;
+    font-weight: 700;
 }
 
 .teksfooter

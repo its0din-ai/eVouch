@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/homeStyle.css">
 
@@ -22,14 +23,14 @@
                 data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span
                     class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav mx-auto" style="margin: 0;padding-right: 50px;">
-                    <li class="nav-item"><a class="nav-link text-warning text-center" href="#abt" style="width: 110px;">ABOUT</a>
+                <ul class="navbar-nav mx-auto" style="margin: 0;padding-right: 80px;">
+                    <li class="nav-item"><a class="nav-link text-warning text-center" href="#abt" style="width: 110px;">TENTANG</a>
                     </li>
-                    <li class="nav-item text-center"><a class="nav-link text-warning text-center" href="#cnt"
-                            style="width: 110px;">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning text-center" href="#cnt"
+                            style="width: 110px;">DUKUNGAN</a></li>
                     <li class="nav-item text-center d-xl-flex d-xxl-flex justify-content-xl-center align-items-xl-center align-items-xxl-center"
                         style="width: 110px;"><button class="btn btn-outline-danger btn-sm text-center tada animated"
-                            type="button" style="padding-left: 20px;padding-right: 20px;margin-left: 0px;"
+                            type="button" style="padding-left: 20px;padding-right: 20px;margin-left: 10px;"
                             data-bs-toggle="modal" data-bs-target="#loginModal">LOGIN</button></li>
                 </ul>
             </div>
@@ -64,11 +65,14 @@
     </div>
 
         <section id="home">
+            <div class="d-flex justify-content-center pt-5">
+                <h1 class="teksjudul" style="font-size:45px !important; font-weight:600;">SELAMAT DATANG DI LANDING PAGE</h1>
+            </div>
             <div class="row" style="padding-top: 50px;">
                 <div class="column il">
                     <img src="./assets/img/Nav-Logo.png" class="ilustrasi">
                 </div>
-                <div class="column">
+                <div class="column pt-5">
                     <h2 class="teksjudul">eVouch</h2>
                     <p class="isihome">
                         eVouch, adalah platform digital yang menyediakan berbagai Electronic Money yang berupa Voucher
@@ -82,7 +86,7 @@
         </section>
     <div id="abt">
         <section id="about">
-            <h2 class="teksjudul about">OUR TEAM</h2>
+            <h2 class="teksjudul about">PENCIPTA</h2>
             <br><br><br>
             <div style="margin-left: 8%;">
                 <div class="columns left zoom">
@@ -101,68 +105,80 @@
     <div id="cnt">
         <section id="contact">
             <div class="top">
-                <h2 class="teksjudul">OUR SUPPORT</h2>
+                <h2 class="teksjudul">DUKUNGAN PEMBAYARAN</h2>
                 <br><br><br>
-                <div class="container overflow-hidden ms-auto">
+                <div class="container overflow-hidden ms-5 ps-5">
                     <div class="row align-items-center">
+                        <p class="teksjudul bayar">Virtual Account</p>
                         <div class="col-sm-2">
                             <a href="https://www.bca.co.id/id/individu" target="_blank"><img src="./assets/img/BBCA.png"
-                                    style="width: 180px; height:180px"></a>
+                                style="width: 180px; height:180px"></a>
+                            <p class="teksjudul bayar bank ms-1 pt-3">BANK<br>CENTRAL ASIA</p>
                         </div>
                         <div class="col-sm-2">
                             <a href="https://www.bni.co.id/id-id/" target="_blank"><img src="./assets/img/BBNI.png"
-                                    style="width: 180px; height:180px"></a>
+                                style="width: 180px; height:180px"></a>
+                            <p class="teksjudul bayar bank ms-1 pt-3">BANK<br>NEGARA INDONESIA</p>
                         </div>
                         <div class="col-sm-2">
                             <a href="https://bri.co.id/" target="_blank"><img src="./assets/img/BBRI.png"
-                                    style="width: 180px; height:180px"></a>
+                                style="width: 180px; height:180px"></a>
+                            <p class="teksjudul bayar bank ms-1 pt-3">BANK<br>RAKYAT INDONESIA</p>
+                            </div>
                         </div>
-                    </div>
-                    <br><br><br><br>
-                    <div class="row align-items-center">
-                        <div class="col-sm-2">
-                            <a href="https://holo.host/holo-fuel/" target="_blank"><img src="./assets/img/HOLO.png"
-                                    style="width: 180px; height:180px"></a>
+                        <br><br>
+                        <div class="row align-items-center">
+                        <p class="teksjudul bayar">Crypto Currency</p>
+                            <div class="col-sm-2">
+                                <a href="https://holo.host/holo-fuel/" target="_blank"><img src="./assets/img/HOLO.png"
+                            style="width: 180px; height:180px"></a>
+                            <p class="teksjudul bayar bank ms-4 ps-3 pt-3">HOLO Token</p>
                         </div>
                         <div class="col-sm-2">
                             <a href="https://polygon.technology/" target="_blank"><img src="./assets/img/MATIC.png"
                                     style="width: 180px; height:180px"></a>
+                            <p class="teksjudul bayar bank ms-4 ps-1 pt-3">POLYGON Matic</p>
                         </div>
                         <div class="col-sm-2">
                             <a href="https://solana.com/" target="_blank"><img src="./assets/img/SOLANA.png"
                                     style="width: 180px; height:180px"></a>
+                            <p class="teksjudul bayar bank ms-5 ps-2 pt-3">SOLANA</p>
                         </div>
                     </div>
                 </div>
                 <br><br><br>
             </div>
             <div class="bottom">
-                <div>
-                    <div class="columns" style="width: 33%;">
+                <div class="container ms-5 ps-3">
+                    <div class="row justify-content-md-left">
+                      <div class="col-6">
                         <img src="./assets/img/Footer-Img.png" class="footimg">
-                    </div>
-                    <div class="columns" style="width: 45%;">
-                        <h2 class="teksfooter">SOCIAL</h2>
-                        <div class="columns" style="width: 13%;">
-                            <h2 class="teksfooter">GH</h2>
-                        </div>
-                        <div class="columns" style="width: 10%;">
-                            <h2 class="teksfooter">IG</h2>
-                        </div>
-                        <div class="columns" style="width: 10%;">
-                            <h2 class="teksfooter">TW</h2>
-                        </div>
-                    </div>
-                    <div class="columns" style="width: 22%;">
+                      </div>
+                      <div class="col-4">
+                        <h2 class="teksfooter">SOSIAL MEDIA</h2>
+                        <div class="container">
+                            <div class="row justify-content-md-left">
+                              <div class="col-md-3">
+                                <a class="disabled" href="http://github.com/its0din-ai" target="_blank"><h2 class="teksfooter"><i class="fab fa-github"></i></h2></a>
+                              </div>
+                              <div class="col-md-3">
+                                <a class="disabled" href="http://instagram.com/" target="_blank"><h2 class="teksfooter"><i class="fab fa-instagram"></i></h2></a>
+                              </div>
+                              <div class="col-md-3 justify-content-md-right">
+                                <a class="disabled" href="http://facebook.com" target="_blank"><h2 class="teksfooter"><i class="fab fa-facebook"></i></h2></a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-2">
                         <h2 class="teksfooter">ALAMAT</h2>
                         <p>Jl. Jogja - Solo KM.666</p>
+                      </div>
                     </div>
-                </div>
+                  </div>
             </div>
-            <br><br>
-            <div class="credit">
-                <br><br><br><br>
-                <h4>Made With &lt;3 from Group 5</h4>
+            <div class="credit px-5 py-5">
+                <p id="teksfooter">Made With <i class="fas fa-heart text-danger"></i> from Group 5</p>
             </div>
         </section>
     </div>

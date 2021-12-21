@@ -11,7 +11,7 @@ function login() {
   var mail = document.getElementById("mailInput").value;
   var pass = document.getElementById("passInput").value;
   var x = document.getElementById("gblkp");
-  const mailDb = "admin@evouch.com"
+  const mailDb = "admin"
   const passDb = "admin123" 
 
   console.log(mail)
