@@ -13,7 +13,8 @@
 
 
 ::-webkit-scrollbar {
-    width: 8px;
+    display: none;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -42,12 +43,9 @@ html, body, section
     overflow-x: hidden;
     position: relative;
     height: 100%;
+    scroll-behavior: smooth !important;
 }
- 
-html
-{
-    scroll-behavior: smooth;
-}
+
 
 .ilustrasi{
     width: 80%;
@@ -191,13 +189,11 @@ html
 
 .zoom {
     transition: transform .5s;
-  }
-  
-  .zoom:hover {
+}
+
+.zoom:hover {
     transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
-
-
+}
 
 .dropdown-menu-center {
     margin-top: 15px !important;
@@ -206,4 +202,8 @@ html
     -webkit-transform: translate(-50%, 0) !important;
     -o-transform: translate(-50%, 0) !important;
     transform: translate(-50%, 0) !important;
+}
+
+.salah {
+    --animate-repeat: 1;
 }

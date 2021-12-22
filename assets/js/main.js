@@ -1,18 +1,20 @@
-// function gblk() {
-//     var x = document.getElementById("gblkp");
-//     if (x.style.display === "none") {
-//       x.style.display = "block";
-//     } else {
-//       x.style.display = "none";
-//     }
-//   }
 
+
+// Fungsi biar bisa login pake enter
+$("#passInput").keypress(function(event) {
+  if (event.keyCode === 13) {
+      $("#btnLogin").click();
+  }
+});
+
+
+// Fungsi Login
 function login() {
   var mail = document.getElementById("mailInput").value;
   var pass = document.getElementById("passInput").value;
   var x = document.getElementById("gblkp");
-  const mailDb = "admin"
-  const passDb = "admin123" 
+  const mailDb = "admin"                                     // Email Admin
+  const passDb = "admin123"                                 // Password Admin
 
   console.log(mail)
   console.log(pass)
@@ -22,6 +24,4 @@ function login() {
   else{
       x.style.display = "block";
     }
-
-
 }

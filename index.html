@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/homeStyle.css">
+    <script src="assets/js/main.js"></script>
+    
 
     <title>eVouch Landing</title>
 </head>
@@ -29,7 +31,7 @@
                     <li class="nav-item"><a class="nav-link text-warning text-center" href="#cnt"
                             style="width: 110px;">DUKUNGAN</a></li>
                     <li class="nav-item text-center d-xl-flex d-xxl-flex justify-content-xl-center align-items-xl-center align-items-xxl-center"
-                        style="width: 110px;"><button class="btn btn-outline-danger btn-sm text-center tada animated"
+                        style="width: 110px;"><button class="btn btn-outline-danger btn-sm text-center animate__animated animate__heartBeat"
                             type="button" style="padding-left: 20px;padding-right: 20px;margin-left: 10px;"
                             data-bs-toggle="modal" data-bs-target="#loginModal">LOGIN</button></li>
                 </ul>
@@ -49,16 +51,16 @@
                     <div class="mb-3">
                         <label for="mailInput" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="mailInput"
-                            placeholder="example@domain.id">
+                            placeholder="Email Anda">
                     </div>
                     <div class="mb-3">
                         <label for="passInput" class="col-sm-2 col-form-label">Password</label>
-                        <input type="password" class="form-control" id="passInput" placeholder="Type your password">
+                        <input type="password" class="form-control" id="passInput" placeholder="Password Anda">
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <p id="gblkp" style="padding-right: 195px; display: none; font-size:15px">Password Salah Goblok</p>
-                    <button onclick="login()" type="button" class="btn btn-danger">LOGIN</button>
+                    <p id="gblkp" style="padding-right: 195px; display: none; font-size:15px" class="text-danger animate__animated animate__swing salah">Password Salah Goblok</p>
+                    <button onclick="login()" type="button" class="btn btn-danger" id="btnLogin">LOGIN</button>
                 </div>
             </div>
         </div>
@@ -187,9 +189,6 @@
         </div>
     </div>
 </div>
-
-
-
 
     <!-- JS Eksternal -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
