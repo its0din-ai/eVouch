@@ -38,6 +38,8 @@
  
 html, body, section
 {
+    max-width: 100%;
+    overflow-x: hidden;
     position: relative;
     height: 100%;
 }
@@ -194,3 +196,14 @@ html
   .zoom:hover {
     transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
+
+
+
+.dropdown-menu-center {
+    margin-top: 15px !important;
+    right: auto !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, 0) !important;
+    -o-transform: translate(-50%, 0) !important;
+    transform: translate(-50%, 0) !important;
+}
