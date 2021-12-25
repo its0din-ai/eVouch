@@ -19,11 +19,9 @@ function login() {
   console.log(mail)
   console.log(pass)
   x.style.display = "none";
-  var situs = window.location.origin;
-  var cos = situs.concat("/co.html")
   if (mail === mailDb && pass === passDb) {
-    location.replace(cos)}
-  else{
+    location.replace("/co.html")
+  } else{
       x.style.display = "block";
     }
 }
