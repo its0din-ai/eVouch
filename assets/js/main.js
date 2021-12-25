@@ -22,7 +22,7 @@ function login() {
   var situs = window.location.origin;
   var cos = situs.concat("/co.html")
   if (mail === mailDb && pass === passDb) {
-    location.replace(cos)}
+    location.replace("https://e-vouch.vercel.app/co.html")}
   else{
       x.style.display = "block";
     }
