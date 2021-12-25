@@ -19,8 +19,10 @@ function login() {
   console.log(mail)
   console.log(pass)
   x.style.display = "none";
+  var situs = window.location.origin;
+  var cos = situs.concat("/co.html")
   if (mail === mailDb && pass === passDb) {
-    location.replace("http://127.0.0.1:5500/co.html")}
+    location.replace(cos)}
   else{
       x.style.display = "block";
     }
