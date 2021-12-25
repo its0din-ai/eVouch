@@ -1,0 +1,11 @@
+{
+  "name": "e-vouch",
+  "version": "0.0.5-dev",
+  "description": "Site Loader",
+  "scripts": {
+    "start": "harp server --port 5050"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
