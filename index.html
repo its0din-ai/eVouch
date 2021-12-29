@@ -44,14 +44,14 @@
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalLabel">Login to Your Account</h5>
+                    <h5 class="modal-title" id="modalLabel"><strong>MASUK</strong></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="mb-3">
-                        <label for="mailInput" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="mailInput"
-                            placeholder="Email Anda">
+                        <label for="mailInput" class="form-label">Username</label>
+                        <input type="text" autocomplete="off" class="form-control" id="mailInput"
+                            placeholder="Username Anda">
                     </div>
                     <div class="mb-3">
                         <label for="passInput" class="col-sm-2 col-form-label">Password</label>
@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <p id="gblkp" style="padding-right: 195px; display: none; font-size:15px" class="text-danger animate__animated animate__shakeX salah">Password Salah Goblok</p>
+                    <p id="slh" style="padding-right: 250px; display: none; font-size:15px" class="text-danger animate__animated animate__shakeX salah">Password Salah!</p>
                     <button onclick="login()" type="button" class="btn btn-danger" id="btnLogin">LOGIN</button>
                 </div>
             </div>
@@ -97,13 +97,13 @@
                 <br><br><br>
                 <div class="container mx-auto justify-content-center">
                     <div class="row">
-                    <div class="col zoom">
+                    <div role="button" data-bs-toggle="modal" data-bs-target="#infoProfil" dataNama="ANJAY HEKER" class="col zoom">
                         <img src="./assets/img/l.png" style="width: 400px; height: 400px; border-radius: 50%;">
                     </div>
-                    <div class="col zoom">
-                        <img src="./assets/img/m.png" style="width: 400px; height: 400px; border-radius: 50%;">
+                    <div role="button" data-bs-toggle="modal" data-bs-target="#infoProfil" dataNama="Muhammad Wahyu Syafi'uddin" class="col zoom">
+                        <img src="./assets/img/w.png" style="width: 400px; height: 400px; border-radius: 50%;">
                     </div>
-                    <div class="col zoom">
+                    <div role="button" data-bs-toggle="modal" data-bs-target="#infoProfil" dataNama="Mak Lo Heker" class="col zoom">
                         <img src="./assets/img/r.png" style="width: 400px; height: 400px; border-radius: 50%;">
                     </div>
                     </div>
@@ -111,6 +111,24 @@
                 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             </section>
         </div>
+
+        <div class="modal fade" id="infoProfil" tabindex="-1" aria-labelledby="infoProfilLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="infoProfilLabel"><strong></strong></h5>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Tutup</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         <div id="cnt">
             <section id="contact">
                 <div class="top">

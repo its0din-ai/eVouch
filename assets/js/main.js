@@ -12,7 +12,7 @@ $("#passInput").keypress(function(event) {
 function login() {
   var mail = document.getElementById("mailInput").value;
   var pass = document.getElementById("passInput").value;
-  var x = document.getElementById("gblkp");
+  var x = document.getElementById("slh");
   const mailDb = "admin"                                     // Email Admin
   const passDb = "admin123"                                 // Password Admin
 
@@ -25,3 +25,14 @@ function login() {
       x.style.display = "block";
     }
 }
+
+
+var infoProfil = document.getElementById('infoProfil')
+infoProfil.addEventListener('show.bs.modal', function (event) {
+  var button = event.relatedTarget
+  var recipient = button.getAttribute('dataNama')
+  var modalTitle = infoProfil.querySelector('.modal-title')
+
+  modalTitle.textContent = recipient
+})
+

@@ -216,6 +216,12 @@ html, body, section
     --animate-repeat: 1;
 }
 
+#infoProfilLabel {
+    font-size: 20px;
+    font-weight: 800;
+    color: #000000;
+}
+
 
 
 
