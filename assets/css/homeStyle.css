@@ -222,6 +222,25 @@ html, body, section
     color: #000000;
 }
 
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 13px; 
+    height: 13px;
+    padding: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .8;
+    transition: opacity .6s ease;
+    border-radius: 100%;
+}
 
 
 
