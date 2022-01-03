@@ -20,8 +20,8 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark visible"
         style="padding-left: 50px;padding-right: 50px;">
-        <div class="container-fluid"><a class="navbar-brand" href="#" target="_top"
-                style="font-size: 23px;font-weight: bold;text-align: center;height: 50px;">eVouch</a><button
+        <div class="container-fluid"><a class="navbar-brand" href="/co.html" target="_top"
+                style="font-size: 23px;font-weight: bold;text-align: center;height: 50px;" id="topp">eVouch</a><button
                 data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span
                     class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
@@ -80,7 +80,7 @@
             <div class="card text-center" style="width: 15rem;">
                 <div role="button" class="card-body" data-bs-toggle="modal" data-bs-target="#productModal" name="Steam">
                     <div class="css-1hm3ph7">
-                        <img crossorigin="anonymous" class="img-thumbnail rounded mx-auto d-block" src="https://images.tokopedia.net/img/attachment/2019/9/27/66301108/66301108_7b8b9fe1-e484-41cf-bd64-ccd417a51b3a.png?ect=4g" title="" alt="League of Legends : Wild Rift">
+                        <img crossorigin="anonymous" class="img-thumbnail rounded mx-auto d-block" src="" id="steam-w" alt="Steam-img">
                     </div>
                 <p class="card-text">Steam Wallet IDR</p>
                 </div>
@@ -91,7 +91,7 @@
             <div class="card text-center" style="width: 15rem;">
                 <div role="button" class="card-body" data-bs-toggle="modal" data-bs-target="#productModal" name="Google Play">
                     <div class="css-1hm3ph7">
-                        <img crossorigin="anonymous" class="img-thumbnail rounded mx-auto d-block" src="https://images.tokopedia.net/img/attachment/2019/9/27/66301108/66301108_7b8b9fe1-e484-41cf-bd64-ccd417a51b3a.png?ect=4g" title="" alt="League of Legends : Wild Rift">
+                        <img crossorigin="anonymous" class="img-thumbnail rounded mx-auto d-block" src="" id="playstore" alt="Play-img">
                     </div>
                 <p class="card-text">Google Play</p>
                 </div>
@@ -100,22 +100,22 @@
       
           <div class="col-lg-3 col-md-6">
             <div class="card text-center" style="width: 15rem;">
-                <div role="button" class="card-body">
+                <div role="button" class="card-body" data-bs-toggle="modal" data-bs-target="#productModal" name="Razer Gold">
                     <div class="css-1hm3ph7">
-                        <img crossorigin="anonymous" class="img-thumbnail rounded mx-auto d-block" src="https://images.tokopedia.net/img/attachment/2019/9/27/66301108/66301108_7b8b9fe1-e484-41cf-bd64-ccd417a51b3a.png?ect=4g" title="" alt="League of Legends : Wild Rift">
+                        <img crossorigin="anonymous" class="img-thumbnail rounded mx-auto d-block" src="" id="razer" alt="Razer-img">
                     </div>
-                <p class="card-text">Steam Wallet IDR</p>
+                <p class="card-text">Razer Gold</p>
                 </div>
             </div>
           </div>
       
           <div class="col-lg-3 col-md-6">
             <div class="card text-center" style="width: 15rem;">
-                <div role="button" class="card-body">
+                <div role="button" class="card-body" data-bs-toggle="modal" data-bs-target="#productModal" name="PS Gift Card">
                     <div class="css-1hm3ph7">
-                        <img crossorigin="anonymous" class="img-thumbnail rounded mx-auto d-block" src="https://images.tokopedia.net/img/attachment/2019/9/27/66301108/66301108_7b8b9fe1-e484-41cf-bd64-ccd417a51b3a.png?ect=4g" title="" alt="League of Legends : Wild Rift">
+                        <img crossorigin="anonymous" class="img-thumbnail rounded mx-auto d-block" src="" id="playstation" alt="PS-img">
                     </div>
-                <p class="card-text">Steam Wallet IDR</p>
+                <p class="card-text">PS Gift Card</p>
                 </div>
             </div>
           </div>
@@ -136,7 +136,7 @@
                     <div class="card mb-3" style="max-width: 768px;">
                         <div class="row g-0">
                           <div class="col-md-4">
-                            <img src="..." class="img-fluid rounded-start" alt="..." id="prodImg">
+                            <img src="" class="img-fluid rounded-start" alt="jsErrorNgabb" id="prodImg">
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
@@ -153,7 +153,10 @@
                                 <br>
                                 <p class="card-text">Harga :</p>
                                 <p class="card-text" id="coba">Pilih Vouchernya Dulu</p>
-                                <button type="button" class="btn btn-outline-success ps-5 pe-5">Beli</button>
+                                <button type="button" onclick="kasihTau()" class="btn btn-outline-success ps-5 pe-5">Beli</button>
+                                <br><br/>
+                                <p id="fitur" class="text-primary animate__animated animate__shakeX" style="display: none;">Fitur Belum Dibuat</p>
+                                <br>
                             </div>
                           </div>
                         </div>
@@ -167,8 +170,6 @@
       </div>
 
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       <div id="cnt">
         <section id="contact">
             <div class="bottom">
