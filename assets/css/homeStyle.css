@@ -212,9 +212,6 @@ html, body, section
     transform: translate(-50%, 0) !important;
 }
 
-.salah {
-    --animate-repeat: 1;
-}
 
 #infoProfilLabel {
     font-size: 20px;
@@ -261,54 +258,4 @@ html, body, section
 
 #btt:hover {
     background-color: #ddd; /* Add a dark-grey background on hover */
-}
-
-
-.css-191yyly {
-    position: relative;
-    border-radius: 3px;
-    background-color: rgb(249, 249, 249);
-    border: 1px solid rgb(0, 0, 0);
-    text-align: center;
-    cursor: pointer;
-    box-sizing: border-box;
-    margin: 0.3rem;
-    flex-basis: 19%;
-    max-height: 15rem;
-    min-width: 9rem;
-    line-height: 1.5;
-}
-
-.css-1hm3ph7 {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin: 0px auto 4px;
-    position: relative;
-    text-align: center;
-    overflow: hidden;
-    width: 200px;
-    height: 140px;
-    display: block;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-}
-
-.css-e2jol {
-    opacity: 0.7;
-    font-size: 12px;
-    padding: 0px 5px;
-    color: rgb(0, 0, 0);
-}
-
-.css-1k0qt4q {
-    height: auto;
-    color: rgb(153, 153, 153);
-    font-size: 12px;
-    line-height: 11px;
-}
-
-.css-1hm3ph7 > img.fade.success, .css-1hm3ph7 > img.fade.default {
-    opacity: 1;
 }

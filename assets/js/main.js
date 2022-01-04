@@ -11,17 +11,17 @@ $("#passInput").keypress(function(event) {
 function login() {
   var mail = document.getElementById("mailInput").value;
   var pass = document.getElementById("passInput").value;
-  var x = document.getElementById("slh");
-  const mailDb = "admin"                                     // Email Admin
-  const passDb = "admin123"                                 // Password Admin
+  var salah = document.getElementById("slh");
+  const mailDb = "administrator"                                     // Email Admin
+  const passDb = "sudo123"                                          //  Password Admin
 
   console.log(mail)
   console.log(pass)
-  x.style.display = "none";
+  salah.style.display = "none";
   if (mail === mailDb && pass === passDb) {
     location.replace("/co.html")
   } else{
-      x.style.display = "block";
+      salah.style.display = "block";
     }
 }
 

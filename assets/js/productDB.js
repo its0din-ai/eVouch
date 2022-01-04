@@ -10,7 +10,7 @@ var gaada = document.getElementById("fitur");
 gaada.style.display = "none";
 function kasihTau(){
     gaada.style.display = "block";
-    console.log("OK")
+    // console.log("OK") [DEBUGGER]
 }
 
 // DB GAMBAR PRODUK
@@ -194,6 +194,13 @@ infoProd.addEventListener('show.bs.modal', function (event) {
     else if(proName == "Call of Duty Mobile"){
         prodImg.src= codm.src
         modalTitle.textContent = "Call of Duty Mobile"
+        coba.textContent = "Pilih Vouchernya"
+        
+    }
+
+    else{
+        prodImg.src= ""
+        modalTitle.textContent = "Database Error"
         coba.textContent = "Pilih Vouchernya"
         
     }
